@@ -1,4 +1,5 @@
 require 'rubygems'
+gem 'httparty', '= 0.8.2'
 require 'httparty'
 
 directory = File.expand_path(File.dirname(__FILE__))
