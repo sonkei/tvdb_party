@@ -23,7 +23,7 @@ module TvdbParty
       begin 
         @air_date = Date.parse(options["FirstAired"])
       rescue
-        puts 'invalid date'
+#        puts 'invalid date'
       end
     end
     
